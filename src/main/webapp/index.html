@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>EmployeeManagementSystem</title>
+<link rel="stylesheet" href="css/bootstrap.css"></link>
+<style>
+ #frm{
+ 	width:500px;
+ 	margin:auto;
+ 	margin-top:100px
+ }
+</style>
+</head>
+<body class="container-fluid">
+	<form action ="add" method="post" class="form card" id="frm">
+		<h2 class="bg-secondary text-white card-header">Employee Registration Form</h2>
+		<table class="table table-hover">
+			<tr>
+			<td>Name</td>
+			<td><input type ="text" name="EmployeeName"></td>
+			</tr>
+			<tr>
+			<td>Designation</td>
+			<td><input type ="text" name="EmployeeDesignation"></td>
+			</tr>
+			<tr>
+			<td>Salary</td>
+			<td><input name="EmployeeSalary"></td>
+			</tr>
+			<tr class="card-footer">
+			<td><button type="submit" class="btn btn-outline-secondary">add</button></td>
+			</tr>
+		</table>
+		 	<button class="btn btn-outline-secondary display-block"><a href="viewdata">View Employees</a></button>
+	</form>"
+</body>
+</html>
